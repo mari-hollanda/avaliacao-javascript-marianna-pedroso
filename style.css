@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap");
+
+body {
+  background-image: url("imagens/fundo-fofinho.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: "Quicksand", sans-serif;
+  color: #444;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 20px;
+  padding: 30px;
+  max-width: 900px;
+  margin: auto;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  font-weight: 600;
+  color: #cc6ba3;
+  margin-bottom: 30px;
+}
+
+input,
+select {
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+#adicionarBtn {
+  background-color: #f7a8c2;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+#adicionarBtn:hover {
+  background-color: #f284ac;
+}
+
+table {
+  background-color: white;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+th {
+  background-color: #fce4ec;
+  color: #c2185b;
+  text-align: center;
+}
+
+td {
+  vertical-align: middle;
+}
+
+.badge {
+  font-size: 0.85rem;
+  padding: 6px 12px;
+  border-radius: 12px;
+}
+
+.bg-danger {
+  background-color: #f67280 !important;
+}
+
+.bg-warning {
+  background-color: #f8b195 !important;
+}
+
+.bg-success {
+  background-color: #99e1d9 !important;
+}
+
+.btn-success {
+  background-color: #88d498;
+  border: none;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.btn-success:hover {
+  background-color: #6dc28d;
+}
+
+body {
+  background-image: url("images/background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Arial, sans-serif;
+}
+
+@font-face {
+  font-family: "Sobiscuit";
+  src: url("fonts/Sobiscuit.otf") format("opentype"),
+    url("fonts/Sobiscuit.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+h2 {
+  font-family: "Sobiscuit", Arial, sans-serif;
+}
+
+.modal-content {
+  border-radius: 20px;
+  background-color: #fff0f5;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+.modal-title {
+  font-family: "Sobiscuit", Arial, sans-serif;
+  color: #cc6ba3;
+  font-size: 1.5rem;
+}
+
+#confirmarSim {
+  background-color: #f7a8c2;
+  border: none;
+  font-weight: bold;
+  border-radius: 12px;
+}
+
+#confirmarSim:hover {
+  background-color: #f284ac;
+}
